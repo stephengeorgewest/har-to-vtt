@@ -1,0 +1,12 @@
+
+*node_modules
+
+# ignore bulid files
+*.js
+*.js.map
+
+# ignore input files
+#*.har.json
+
+# ignore output files
+*.vtt

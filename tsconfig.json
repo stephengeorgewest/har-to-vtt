@@ -1,0 +1,13 @@
+{
+    "type": "node",
+    "request": "launch",
+    "name": "Debug launcher",
+    "protocol": "inspector",
+    "program": "${workspaceFolder}/har-to-vtt.ts",
+    "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+    "sourceMaps": true,
+    "compilerOptions": {
+        "sourceMap": true,
+        "resolveJsonModule": true,
+    }
+}
